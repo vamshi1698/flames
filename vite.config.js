@@ -7,7 +7,7 @@ dotenv.config();
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base : "/Flames",
+  base : "/flames/",
   define: {
     'process.env.API_URL': JSON.stringify(process.env.API_URL),
 
