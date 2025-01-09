@@ -1,8 +1,31 @@
-# React + Vite
+# FLAMES Calculator Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository hosts the source code for a **FLAMES Calculator** website. The website integrates with a custom API deployed on **AWS Lambda** and triggered via **AWS API Gateway** to calculate FLAMES results dynamically.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+
+- **Interactive UI**: User-friendly interface for entering names and viewing FLAMES results.
+- **Serverless API**: Powered by AWS Lambda for fast and scalable computations.
+- **Integration with AWS API Gateway**: Securely triggers the API when a calculation request is made.
+- **Real-time Results**: Get instant FLAMES calculations for entered names.
+- **Mobile Responsive**: Optimized for both desktop and mobile devices.
+
+---
+
+## 🔧 Tech Stack
+
+- **Frontend**:
+  - HTML, CSS, JavaScript
+  - Framework: [React.js (Optional, replace if needed)]
+  
+- **Backend**:
+  - **AWS Lambda** (for serverless computation)
+  - **AWS API Gateway** (for API endpoint management)
+  
+- **Deployment**:
+  - AWS services for backend
+  - [Netlify/Vercel/GitHub Pages] for the frontend (replace based on your deployment choice)
+
+---
