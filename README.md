@@ -18,14 +18,16 @@ This repository hosts the source code for a **FLAMES Calculator** website. The w
 
 - **Frontend**:
   - HTML, CSS, JavaScript
-  - Framework: [React.js (Optional, replace if needed)]
+  - Framework: [React.js]
   
 - **Backend**:
   - **AWS Lambda** (for serverless computation)
   - **AWS API Gateway** (for API endpoint management)
+  - **Node JS,Express**
+ 
+- **Database**:
+  - **MongoDB**
   
 - **Deployment**:
   - AWS services for backend
-  - [Netlify/Vercel/GitHub Pages] for the frontend (replace based on your deployment choice)
-
 ---
